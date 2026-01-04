@@ -115,10 +115,10 @@ Check the `routes/FileUpload.js` file for specific endpoint implementations.
 **Base URL**:  `http://localhost:5000/api/v1/upload`
 
 Example endpoints typically include:
-- `POST /api/v1/upload/local` - Upload file locally
-- `POST /api/v1/upload/cloud` - Upload file to Cloudinary
-- `POST /api/v1/upload/image` - Upload image with optimization
-- `POST /api/v1/upload/video` - Upload video file
+- `POST /api/v1/upload/localFileUpload` - Upload file locally
+- `POST /api/v1/upload/imageUpload` - Upload file to Cloudinary
+- `POST /api/v1/upload/imageReducerUpload` - Upload image with optimization
+- `POST /api/v1/upload/videoUpload` - Upload video file
 
 ## 🔧 Configuration
 
